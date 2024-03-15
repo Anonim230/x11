@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2f3ae7b.css",
+    "main.js": "/static/js/main.aa9e49b0.js",
+    "static/js/453.3a38fdbe.chunk.js": "/static/js/453.3a38fdbe.chunk.js",
+    "static/media/Inter.ttf": "/static/media/Inter.853e01975d2783d9fa29.ttf",
+    "static/media/RUB.svg": "/static/media/RUB.cd448fb2528207e119e9.svg",
+    "static/media/USD.svg": "/static/media/USD.1f049b5bded8e29160f8.svg",
+    "static/media/EUR.svg": "/static/media/EUR.7c549e35ee234e987210.svg",
+    "index.html": "/index.html",
+    "static/media/add.svg": "/static/media/add.d9c485965413617d65eacae90ba3aace.svg",
+    "main.a2f3ae7b.css.map": "/static/css/main.a2f3ae7b.css.map",
+    "main.aa9e49b0.js.map": "/static/js/main.aa9e49b0.js.map",
+    "453.3a38fdbe.chunk.js.map": "/static/js/453.3a38fdbe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2f3ae7b.css",
+    "static/js/main.aa9e49b0.js"
+  ]
+}
