@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+    font-family: "Inter";
+    src: url('./assets/fonts/Inter.ttf')
+}
+/* @import url("./assets/fonts/Inter.ttf"); */
+.border-main{
+    border-color: #F2F2F5;
+}
+.font-inter{
+    font-family: "Inter";
+}
+input::after{
+    content: attr("aria-after");
+    right: 0;
+}
+select option[value="usd"]{
+    background-image: url("./assets/images/USD.svg");
+}
+.currency-usd{
+    background-image: url("./assets/images/USD.svg");
+    background-repeat: no-repeat;
+    /* background-position: 0; */
+    background-position-x: center;
+    background-position-y: center;
+}
+.currency-rub{
+    background-image: url("./assets/images/RUB.svg");
+    background-repeat: no-repeat;
+    /* background-position: 0; */
+    background-position-x: center;
+    background-position-y: center;
+}
+.currency-eur{
+    background-image: url("./assets/images/EUR.svg");
+    background-repeat: no-repeat;
+    /* background-position: 0; */
+    background-position-x: center;
+    background-position-y: center;
+}
+select option[disabled] {
+    display: none;
+}
+.bg-card{
+    background-color: #6698FA;
+}
+/* .App{
+    box-shadow: inset 5px 5px 5px 5px #000;
+} */
+.bg-gradient{
+    background-image: linear-gradient(#A6C8FF, #0043CE);
+}
+
+.bg-mask{
+    background-image: url("./assets/images/mask.png");
+}
+.card-active{
+    border-color: rgb(37 99 235 );
+    border-width: 2px;
+}
+.checkbox:checked{
+    background-color: #fff;
+}
+.help::after{
+    content: attr(datamsg);
+}
